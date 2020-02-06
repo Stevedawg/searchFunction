@@ -1,0 +1,16 @@
+// HTML:
+// <div id="d"><p>Content</p><p>Further Elaborated</p></div>
+
+d = document.getElementById("d");
+console.log(d.outerHTML);
+
+// the string '<div id="d"><p>Content</p><p>Further Elaborated</p></div>'
+// is written to the console window
+
+///
+
+var result = [], m, rx = /cow (.*?) milk/g;
+while ((m=rx.exec(s)) !== null) {
+  result.push(m[1]);
+}
+console.log(result);
